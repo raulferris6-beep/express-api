@@ -2,6 +2,7 @@ import express from 'express'
 import morgan from 'morgan'
 import cron from 'node-cron'
 import usersRouter from './routes/user.routes.js'
+import './cron/cron.js'
 
 const app = express()
 const PORT = process.env.PORT || 3001
