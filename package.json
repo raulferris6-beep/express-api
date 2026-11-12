@@ -1,0 +1,31 @@
+{
+  "name": "express-api",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/raulferris6-beep/express-api#readme",
+  "bugs": {
+    "url": "https://github.com/raulferris6-beep/express-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raulferris6-beep/express-api.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "node --watch ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.14.0",
+    "globals": "^17.14.0",
+    "prettier": "^3.10.1"
+  }
+}
